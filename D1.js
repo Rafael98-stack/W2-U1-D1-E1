@@ -45,15 +45,15 @@ console.log(X);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-name = "Casapao"
+
 console.log(name); //D1.js:48 Uncaught TypeError: Assignment to constant variable.//
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num4 = name - 4;
-console.log("Sottrazione: ",num4 );
+let num4 = X - 4;
+console.log("Sottrazione: ", num4 );
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
