@@ -18,8 +18,7 @@ console.log("I principali DataType in JavaScript sono: le STRINGHE, BOOLEANI, I 
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name;
-name = "Rafael";
+const name = "Rafael"
 console.log (name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -36,10 +35,9 @@ console.log(num3);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let X = 12
-var name;
-name = 12;
+
 console.log(X);
-console.log(name);
+
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
@@ -47,12 +45,8 @@ console.log(name);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let myName = "Rafael";
-let mySureName = "Casapao";
-const myFullName = myName +" "+ mySureName;
-myName = "Casapao";
-console.log(myFullName);
-
+name = "Casapao"
+console.log(name); //D1.js:48 Uncaught TypeError: Assignment to constant variable.//
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
